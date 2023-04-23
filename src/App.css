@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+a:hover{
+  cursor: pointer;
+}
+.imageToZoom{
+  overflow: hidden;
+}
+.card-img{
+  transition: all 0.3s ease;
+}
+.card-img:hover{
+  transform: scale(1.1);
+}
+.card{
+  height: 100%;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imageToZoom{
+  height: 60%;
+  transition: all 0.5s ease;
+}
+.imageToZoom:hover{
+  height: 100%;
+}
+.dropdown-menu {
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
+
+
+
+
+
+
+
+
